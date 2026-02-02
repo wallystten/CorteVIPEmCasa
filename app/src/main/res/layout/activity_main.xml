@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B1C2D"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:text="Corte VIP em Casa"
+        android:textColor="#C9A24D"
+        android:textSize="26sp"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnAgendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar pelo WhatsApp"
+        android:textSize="18sp"
+        android:backgroundTint="#C9A24D"
+        android:textColor="#000000"/>
+</LinearLayout>
